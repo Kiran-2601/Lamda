@@ -1,8 +1,6 @@
 service: serverless-nodejs-app provider: 
   secrets: ${file(secrets.json)} # reference the secrets.json fileprovider: 
   name: aws 
-
-  name: aws 
   runtime: nodejs8.10 
   stage: dev 
   region: eu-central-1 
